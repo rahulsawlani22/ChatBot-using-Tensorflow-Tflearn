@@ -1,0 +1,56 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Savii", "what is your age", "how old are you", "age?"],
+         "responses": ["I am few days Young !", "I Started on June 4!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Savii.", "I'm Savii!", "I'm Sawlani aka Savii!."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["I am always here !"],
+         "context_set": ""
+        },
+        {"tag": "fees",
+                "patterns": ["What is your fees", "what is your cost", "payment of your service","charges"],
+                "responses": ["I am free to use !"],
+                "context_set": ""
+               },
+               {"tag": "developer",
+                "patterns": ["who created you?","your developer","who originated you","who made you"],
+                "responses": ["I was made by Rahul Sawlani","The first chatbot ever was developed by MIT professor Joseph Weizenbaum in the 1960s.","Rahul Sawlani Developed me !"],
+                "context_set": ""
+               },
+               {"tag": "operations",
+                "patterns": ["What can you do","what functions can You perform","what can you operate"],
+                "responses": ["I am a simple ChatBot","I can live chat with you like right now !","Try Me !"],
+                "context_set": ""
+               },
+        {
+                "tag": "Covid19",
+                "patterns": ["What is covid-19","pandaemic due to covid virus","how can you save us from covid 19"],
+                "responses": ["I am here to help !","Earth is healing","stay home,stay safe !","Wash your Hands, use sanitizers and masks"],
+                "context_set": ""   
+        }
+        ]
+
+   
+}
